@@ -1,4 +1,4 @@
-**#Aula 15 – Chaves Estrangeiras e JOIN**
+## Aula 15 – Chaves Estrangeiras e JOIN
 
 ---
 
@@ -343,6 +343,42 @@ um LEFT JOIN em INNER JOIN sem perceber.
 - JOIN depende de índices para ter bom desempenho.
 
 - Falta de índice pode gerar lentidão significativa.
+
+---
+
+## 🧩 Como Escrever Atributos Corretamente (Incluindo Chaves)
+
+Na aula foi reforçado que os atributos (colunas) precisam ser escritos de forma organizada e seguindo boas práticas.
+
+Cada atributo deve conter:
+
+- Nome
+- Tipo de dado
+- (Opcional) Restrições como NOT NULL, DEFAULT, AUTO_INCREMENT
+- (Se necessário) definição de chave primária ou estrangeira
+
+---
+
+## 📌 Regras para Escrever Atributos
+
+✔ Usar nomes claros e objetivos  
+✔ Não usar espaços (usar `_` se necessário)  
+✔ Não usar acentos  
+✔ Evitar caracteres especiais  
+✔ Manter um padrão (ex: tudo minúsculo)  
+
+Exemplos corretos:
+
+- `id`
+- `nome`
+- `data_nascimento`
+- `cursopreferido`
+
+## 🏗 Estrutura Básica de um Atributo
+
+```sql
+nome_do_atributo TIPO_DE_DADO restricoes;
+```
 
 ---
 
