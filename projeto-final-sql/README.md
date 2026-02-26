@@ -1,5 +1,25 @@
-# Projeto Final SQL
+# 🎓 Projeto Final - Banco de Dados MySQL
 
-Sistema de gerenciamento de cursos desenvolvido em MySQL.
+## 📌 Descrição
+Sistema de gerenciamento de cursos desenvolvido utilizando MySQL.
 
-Projeto finalizado e organizado.
+O projeto contém:
+- Criação de banco de dados
+- Criação de tabelas
+- Inserção de dados
+- Consultas utilizando SELECT
+- Utilização de JOIN
+- Relacionamentos entre tabelas
+
+## 🛠 Tecnologias utilizadas
+- MySQL
+- SQL
+
+## 📂 Estrutura do Projeto
+projeto-final-sql/
+ ├── README.md
+ └── projeto_final_sql.sql
+
+---
+
+Projeto desenvolvido como prática de Banco de Dados.
